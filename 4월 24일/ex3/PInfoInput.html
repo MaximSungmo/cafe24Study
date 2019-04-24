@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content=“text/html;charset=euc-kr>
+<title>개인정보 입력화면</title>
+</head>
+<body>
+	<H2>개인정보 입력</H2>
+	<FORM ACTION=/Sample/pinfo_result METHOD=GET><!-- 가즈아 -->
+	
+		이름: <INPUT TYPE=TEXT NAME=NAME><BR> 
+		아이디: <INPUT TYPE=TEXT NAME=ID><BR> 
+		패스워드: <INPUT TYPE=PASSWORD NAME=PASSWORD><BR><BR> 
+		성별: 
+			남<INPUT TYPE=RADIO NAME=GENDER VALUE=MALE> 
+			여<INPUT TYPE=RADIO NAME=GENDER VALUE=FEMAIL><BR><BR> 
+		메일수신여부: 
+			공지메일<INPUT TYPE=CHECKBOX NAME=INOTICE> 
+			광고메일<INPUT TYPE=CHECKBOX NAME=CNOTICE> 
+			배송확인 메일<INPUT TYPE=CHECKBOX NAME=DNOTICE><BR><BR> 
+			직업: 
+			<SELECT NAME=JOB>
+				<OPTION>회사원</OPTION>
+				<OPTION>학생</OPTION>
+				<OPTION>기타</OPTION>	
+			</SELECT><BR><BR>
+						 
+		<INPUT TYPE=RESET VALUE=“취소”> <INPUT TYPE=SUBMIT VALUE=“확인”>
+	</FORM>
+</body>
+</html>
