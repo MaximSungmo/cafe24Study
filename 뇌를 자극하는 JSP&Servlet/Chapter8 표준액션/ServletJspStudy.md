@@ -1,7 +1,7 @@
-#Servlet/Jsp
+# Servlet/Jsp
 ***
-####EL(Expresion Language)
-#####표현식
+#### EL(Expresion Language)
+##### 표현식
 ````
 ${cnt}
 위의 식에서 cnt는 Java의 변수가 아닌 Attribute의 이름으로 해석됩니다.
@@ -49,8 +49,8 @@ web.xml에
 초기화해준 값(malldb)을 불러온다.
 - - -
 
-#표준 액션
-##jsp:include와 include의 차이
+# 표준 액션
+## jsp:include와 include의 차이
 >실행결과는 같지만 두 문법의 내부 작동방식은 서로 다릅니다.
 
 + jsp:include
@@ -60,7 +60,7 @@ web.xml에
   + jsp페이지가 서블릿 클래스로 변환될 때 해당 웹 자원을 읽어 서블릿 클래스 코드의 일부로 만든다
   + 변수 공유 가능.
 
-###jsp:forward 표준액션
+### jsp:forward 표준액션
 **forward** 와 같은 기능
 >jsp 페이지 내에서 다른 jsp 페이지를 호출할때 사용하는 메서드
 jsp페이지가 할 일을 모두 마치고 난 다음에 다른 jsp 페이지를 호출하고자 할 때 사용하는 것이 좋다.
