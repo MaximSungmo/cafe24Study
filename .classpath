@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="뇌를 자극하는 JSP&amp;Servlet/Chapter3 JSP의_기초"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
