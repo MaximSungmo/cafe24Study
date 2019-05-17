@@ -23,9 +23,11 @@
 메모리 와 CPU   : 상당히 빠른 버스
 
 
-참고 그림
-![hardware](./image/hardware.jpg)
+
 ```
+참고 그림
+
+![hardware](../image/hardware.jpg)
 
 ### 규모조정의 요소
 - scale-out이 scale-up보다 웹서비스에 적합
@@ -40,7 +42,7 @@
 
 
 
-![book_image](./image/book_image.png)
+![book_image](../image/book_image.png)
 
 
 2’ 2’’ CPU 부하에 의한 확장은 그냥 대수만 늘리기만 하면 가능 (새로운 서버 추가해서 복사본 마련)
